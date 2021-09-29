@@ -1,5 +1,7 @@
 terraform {
-  backend "remote" {}
+  backend "remote" {
+    workspaces {}
+  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
