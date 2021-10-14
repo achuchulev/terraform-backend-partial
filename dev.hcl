@@ -1,2 +1,2 @@
 organization = "atanas-free"
-workspaces { name="terraform-backend-partial-dev"}
+workspaces { name="terraform-backend-partial-dev" }
