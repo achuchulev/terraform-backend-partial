@@ -1,4 +1,5 @@
-# Test usage of ["remote"](https://www.terraform.io/docs/language/settings/backends/remote.html) backend partial configuration with Terraform Cloud (TFC)
+# How to set ["remote"](https://www.terraform.io/docs/language/settings/backends/remote.html) backend partial configuration to manage different environments with Terraform Cloud
+
 
 ### Introduction
 When using Terraform Cloud (TFC) as a "remote" backend to manage multiple environments (e.g. dev, test, stage, prod, etc.) that share the same Terraform configuration, you need to have an option to specify the environment where Terraform will provision resources.
