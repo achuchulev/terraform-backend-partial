@@ -6,12 +6,12 @@ When using Terraform Cloud (TFC) as a "remote" backend to manage multiple enviro
 
 
 
-### The Problem
+### Problem
 Currently, the Terraform "remote" backend does not support interpolations within its configuration block. This means it is not allowed to have variables as values when defining the "organization" and the "name" of the workspace.
 
 
 
-Solution
+### Solution
 The "remote" backend supports partial configuration, as shown below, that allows Terraform to be initialized with a dynamically set backend configuration.
 
 ```
